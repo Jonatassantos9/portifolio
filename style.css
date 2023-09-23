@@ -1,0 +1,165 @@
+body {
+  background-color: #0d1117;
+}
+
+main {
+  max-width: 750px;
+  margin: 32px auto;
+  color: #e6edf3;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 8px;
+  color: #01baef;
+}
+
+h2 {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: #01baef;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+span {
+  color: #01baef;
+}
+
+.callToAction {
+  margin-top: 16px;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 20px 32px;
+  border: none;
+  background-color: #01baef;
+  border-radius: 6px;
+  color: #fff;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.callToAction:hover {
+  background-color: #0469aa;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 64px 0;
+}
+
+#containerHeader {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+@media (width <= 425px) {
+  #containerHeader {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#containerHeader img {
+  height: 300px;
+  background-image: linear-gradient(
+    to right bottom,
+    #023e8a,
+    #0469aa,
+    #3b94c4,
+    #72bedc,
+    #ade8f4
+  );
+  border-radius: 6px;
+}
+
+.cellsContainer {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.cell {
+  font-size: 0.95em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  border-radius: 7px;
+  padding: 24px;
+  font-weight: 500;
+  background-color: #161b22;
+  line-height: 1em;
+}
+
+.cell img {
+  width: 64px;
+}
+
+#projectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project {
+  padding: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #161b22;
+  transition: 0.2s ease;
+}
+
+.project:hover {
+  background-color: #212933;
+}
+
+.contact {
+  text-align: center;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #161b22;
+}
+
+.button {
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 16px 24px;
+  border: none;
+  background-color: #01baef;
+  border-radius: 6px;
+  color: #fff;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0469aa;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.buttonContainer a:hover {
+  color: #01baef;
+}
